@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Hello, World</title>
-  </head>
 
-  <body>
-    <h1>Hello, World</h1>
-    <script src="main.js" defer></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Genshin Calendar</title>
+</head>
+
+<body>
+  <h1>Genshin Calendar</h1>
+
+  <table class="calendar">
+    <thead class="calendar__weekdays">
+      <tr>
+        <% for(const day of ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]) { %>
+        <th class="cell weekday"><%= day %></th>
+        <% } %>
+      </tr>
+    </thead>
+    <tbody class="calendar__dates">
+      <% for(let week = 0; week < 6; week++) { %>
+      <tr>
+        <% for(let dow = 0; dow < 7; dow++) { %>
+        <td class="cell date">0</td>
+        <% } %>
+      </tr>
+      <% } %>
+    </tbody>
+  </table>
+
+  <script src="main.js" defer></script>
+</body>
+
 </html>
