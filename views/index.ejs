@@ -9,26 +9,28 @@
 </head>
 
 <body>
-  <h1>Genshin Calendar</h1>
 
-  <table class="calendar">
-    <thead class="calendar__weekdays">
-      <tr>
-        <% for(const day of ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]) { %>
-        <th class="cell weekday"><%= day %></th>
+  <div class="wrapper">
+    <h1>Genshin Calendar</h1>
+    <table class="calendar">
+      <thead class="calendar__weekdays">
+        <tr>
+          <% for(const day of ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]) { %>
+          <th class="cell weekday"><%= day %></th>
+          <% } %>
+        </tr>
+      </thead>
+      <tbody class="calendar__dates">
+        <% for(let week = 0; week < 6; week++) { %>
+        <tr>
+          <% for(let dow = 0; dow < 7; dow++) { %>
+          <td class="cell date"></td>
+          <% } %>
+        </tr>
         <% } %>
-      </tr>
-    </thead>
-    <tbody class="calendar__dates">
-      <% for(let week = 0; week < 6; week++) { %>
-      <tr>
-        <% for(let dow = 0; dow < 7; dow++) { %>
-        <td class="cell date">0</td>
-        <% } %>
-      </tr>
-      <% } %>
-    </tbody>
-  </table>
+      </tbody>
+    </table>
+  </div>
 
   <script src="main.js" defer></script>
 </body>
