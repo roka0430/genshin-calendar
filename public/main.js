@@ -1,6 +1,7 @@
 class Calendar {
-  constructor(cells) {
+  constructor(cells, title) {
     this.cells = cells;
+    this.title = title;
   }
 
   init() {
@@ -14,6 +15,8 @@ class Calendar {
   }
 
   async render() {
+    this.title.textContent = `${this.year}. ${this.month}`;
+
     const { first, last } = this.getCalendarRange(this.year, this.month);
     const birthdays = await this.fetchBirthdays(first, last);
 
@@ -111,8 +114,9 @@ class Calendar {
 }
 
 const cells = document.querySelectorAll(".date");
+const title = document.getElementById("calendarTitle");
 
-const app = new Calendar(cells);
+const app = new Calendar(cells, title);
 app.init();
 
 document.getElementById("prevButton").addEventListener("click", () => app.prevMonth());
