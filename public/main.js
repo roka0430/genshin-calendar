@@ -84,9 +84,36 @@ class Calendar {
       date1.getDate() === date2.getDate()
     );
   }
+
+  prevMonth() {
+    this.changeMonth(-1);
+  }
+
+  nextMonth() {
+    this.changeMonth(1);
+  }
+
+  changeMonth(offset) {
+    this.month += offset;
+
+    if (this.month < 1) {
+      this.year--;
+      this.month = 12;
+    }
+
+    if (this.month > 12) {
+      this.year++;
+      this.month = 1;
+    }
+
+    this.render();
+  }
 }
 
 const cells = document.querySelectorAll(".date");
 
 const app = new Calendar(cells);
 app.init();
+
+document.getElementById("prevButton").addEventListener("click", () => app.prevMonth());
+document.getElementById("nextButton").addEventListener("click", () => app.nextMonth());
