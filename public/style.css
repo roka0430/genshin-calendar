@@ -3,11 +3,14 @@
   --color-bg-secondary: #ffffff;
   --color-bg-hover: #e8eef5;
 
-  --color-text: #374151;
-  --color-text-secondary: #52606d;
-  --color-text-muted: #7b8794;
+  --color-text: #52606d;
+  --color-text-secondary: #7b8794;
+  --color-text-muted: #9aa5b1;
 
   --color-border: #b8c7d9;
+
+  --color-saturday: #64a0e8;
+  --color-sunday: #e57373;
 }
 
 * {
@@ -80,6 +83,14 @@ body {
 
 .calendar__body .cell {
   border: solid 1px var(--color-border);
+}
+
+.calendar .cell:nth-of-type(7n + 1) {
+  color: var(--color-sunday);
+}
+
+.calendar .cell:nth-of-type(7n) {
+  color: var(--color-saturday);
 }
 
 .calendar__body .cell.weekday {
