@@ -18,8 +18,19 @@ body {
 }
 
 .calendar {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: auto 1fr;
+
   width: max(900px, 100%);
   height: 100%;
+}
+
+.calendar__header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 
 .calendar__body {
