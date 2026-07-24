@@ -34,6 +34,7 @@ class Calendar {
       }
 
       if (this.isToday(first)) classes.push("today");
+      if (first.getMonth() + 1 !== this.month) classes.push("other-month");
 
       this.cells[i].className = classes.join(" ");
       this.cells[i].innerHTML = html.join("");

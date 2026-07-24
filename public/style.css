@@ -1,6 +1,6 @@
 :root {
   --color-bg: #f5f7fa;
-  --color-bg-secondary: #f0f4f8;
+  --color-bg-secondary: #f3f5f8;
   --color-bg-hover: #e9eef5;
 
   --color-text: #52606d;
@@ -102,6 +102,15 @@ body {
 
 .calendar__body .cell.date {
   height: 60px;
+}
+
+.calendar__body .cell.other-month {
+  background: var(--color-bg-secondary);
+}
+
+.calendar__body .cell.other-month * {
+  opacity: 0.5;
+  font-size: 1rem;
 }
 
 .date__number {
