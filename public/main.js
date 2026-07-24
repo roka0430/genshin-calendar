@@ -1,11 +1,9 @@
 class Calendar {
-  constructor() {
-    this.cells = [];
+  constructor(cells) {
+    this.cells = cells;
   }
 
   init() {
-    this.cells = document.querySelectorAll(".date");
-
     this.today = new Date();
     this.today.setHours(0, 0, 0, 0);
 
@@ -88,5 +86,7 @@ class Calendar {
   }
 }
 
-const app = new Calendar();
+const cells = document.querySelectorAll(".date");
+
+const app = new Calendar(cells);
 app.init();
