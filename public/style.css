@@ -17,26 +17,26 @@ body {
   padding: 50px;
 }
 
-.wrapper {
+.calendar {
   width: max(900px, 100%);
   height: 100%;
 }
 
-.calendar {
+.calendar__body {
   width: 100%;
   height: 100%;
   border-collapse: collapse;
   table-layout: fixed;
 }
 
-.calendar .cell {
+.calendar__body .cell {
   border: solid 1px black;
 }
 
-.calendar .cell.weekday {
+.calendar__body .cell.weekday {
   padding: 5px 0;
 }
 
-.calendar .cell.date {
+.calendar__body .cell.date {
   height: 60px;
 }
