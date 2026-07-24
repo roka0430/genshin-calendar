@@ -1,460 +1,460 @@
-- name: 放浪者
-  birthday:
-    month: 1
+- birthday:
     date: 3
-- name: ヤフォダ
-  birthday:
     month: 1
+  name: wanderer
+- birthday:
     date: 5
-- name: 藍硯
-  birthday:
     month: 1
+  name: jahoda
+- birthday:
     date: 6
-- name: トーマ
-  birthday:
     month: 1
+  name: lan_yan
+- birthday:
     date: 9
-- name: シュヴルーズ
-  birthday:
     month: 1
+  name: thoma
+- birthday:
     date: 10
-- name: サンドローネ
-  birthday:
     month: 1
+  name: chevreuse
+- birthday:
     date: 13
-- name: コロンビーナ
-  birthday:
     month: 1
+  name: sandrone
+- birthday:
     date: 14
-- name: ディオナ
-  birthday:
     month: 1
+  name: columbina
+- birthday:
     date: 18
-- name: シトラリ
-  birthday:
     month: 1
+  name: diona
+- birthday:
     date: 20
-- name: 綺良々
-  birthday:
     month: 1
+  name: citlali
+- birthday:
     date: 22
-- name: ロサリア
-  birthday:
     month: 1
+  name: kirara
+- birthday:
     date: 24
-- name: リネ
-  birthday:
-    month: 2
+    month: 1
+  name: rosaria
+- birthday:
     date: 2
-- name: リネット
-  birthday:
     month: 2
+  name: lyney
+- birthday:
     date: 2
-- name: アルハイゼン
-  birthday:
     month: 2
+  name: lynette
+- birthday:
     date: 11
-- name: 北斗
-  birthday:
     month: 2
+  name: alhaitham
+- birthday:
     date: 14
-- name: ファルカ
-  birthday:
     month: 2
+  name: beidou
+- birthday:
     date: 17
-- name: 珊瑚宮心海
-  birthday:
     month: 2
+  name: varka
+- birthday:
     date: 22
-- name: ベネット
-  birthday:
     month: 2
+  name: sangonomiya_kokomi
+- birthday:
     date: 29
-- name: ラウマ
-  birthday:
-    month: 3
+    month: 2
+  name: bennett
+- birthday:
     date: 1
-- name: 七七
-  birthday:
     month: 3
+  name: lauma
+- birthday:
     date: 3
-- name: ヨォーヨ
-  birthday:
     month: 3
+  name: qiqi
+- birthday:
     date: 6
-- name: 申鶴
-  birthday:
     month: 3
+  name: yaoyao
+- birthday:
     date: 10
-- name: シロネン
-  birthday:
     month: 3
+  name: shenhe
+- birthday:
     date: 13
-- name: ジン
-  birthday:
     month: 3
+  name: xilonen
+- birthday:
     date: 14
-- name: ドゥリン
-  birthday:
     month: 3
+  name: jean
+- birthday:
     date: 14
-- name: 夢見月瑞希
-  birthday:
     month: 3
+  name: durin
+- birthday:
     date: 16
-- name: ノエル
-  birthday:
     month: 3
+  name: yumemizuki_mizuki
+- birthday:
     date: 21
-- name: イファ
-  birthday:
     month: 3
+  name: noelle
+- birthday:
     date: 23
-- name: 神里綾人
-  birthday:
     month: 3
+  name: ifa
+- birthday:
     date: 26
-- name: シグウィン
-  birthday:
     month: 3
+  name: kamisato_ayato
+- birthday:
     date: 30
-- name: イネファ
-  birthday:
-    month: 4
+    month: 3
+  name: sigewinne
+- birthday:
     date: 2
-- name: アーロイ
-  birthday:
     month: 4
+  name: ineffa
+- birthday:
     date: 4
-- name: ディシア
-  birthday:
     month: 4
+  name: aloy
+- birthday:
     date: 7
-- name: シャルロット
-  birthday:
     month: 4
+  name: dehya
+- birthday:
     date: 10
-- name: 閑雲
-  birthday:
     month: 4
+  name: charlotte
+- birthday:
     date: 11
-- name: 魈
-  birthday:
     month: 4
+  name: xianyun
+- birthday:
     date: 17
-- name: 夜蘭
-  birthday:
     month: 4
+  name: xiao
+- birthday:
     date: 20
-- name: カチーナ
-  birthday:
     month: 4
+  name: yelan
+- birthday:
     date: 22
-- name: 白朮
-  birthday:
     month: 4
+  name: kachina
+- birthday:
     date: 25
-- name: ディルック
-  birthday:
     month: 4
+  name: baizhu
+- birthday:
     date: 30
-- name: キャンディス
-  birthday:
-    month: 5
+    month: 4
+  name: diluc
+- birthday:
     date: 3
-- name: コレイ
-  birthday:
     month: 5
+  name: candace
+- birthday:
     date: 8
-- name: ネフェル
-  birthday:
     month: 5
+  name: collei
+- birthday:
     date: 9
-- name: 兹白
-  birthday:
     month: 5
+  name: nefer
+- birthday:
     date: 15
-- name: ゴロー
-  birthday:
     month: 5
+  name: zibai
+- birthday:
     date: 18
-- name: 雲菫
-  birthday:
     month: 5
+  name: gorou
+- birthday:
     date: 21
-- name: リンネア
-  birthday:
     month: 5
+  name: yun_jin
+- birthday:
     date: 23
-- name: ダリア
-  birthday:
     month: 5
+  name: linnea
+- birthday:
     date: 25
-- name: フィッシュル
-  birthday:
     month: 5
+  name: dahlia
+- birthday:
     date: 27
-- name: セトス
-  birthday:
     month: 5
+  name: fischl
+- birthday:
     date: 31
-- name: パイモン
-  birthday:
-    month: 6
+    month: 5
+  name: sethos
+- birthday:
     date: 1
-- name: 荒瀧一斗
-  birthday:
     month: 6
+  name: "\u30D1\u30A4\u30E2\u30F3"
+- birthday:
     date: 1
-- name: エスコフィエ
-  birthday:
     month: 6
+  name: arataki_itto
+- birthday:
     date: 8
-- name: リサ
-  birthday:
     month: 6
+  name: escoffier
+- birthday:
     date: 9
-- name: ウェンティ
-  birthday:
     month: 6
+  name: lisa
+- birthday:
     date: 16
-- name: 宵宮
-  birthday:
     month: 6
+  name: venti
+- birthday:
     date: 21
-- name: セノ
-  birthday:
     month: 6
+  name: yoimiya
+- birthday:
     date: 23
-- name: 雷電将軍
-  birthday:
     month: 6
+  name: cyno
+- birthday:
     date: 26
-- name: 八重神子
-  birthday:
     month: 6
+  name: raiden_shogun
+- birthday:
     date: 27
-- name: バーバラ
-  birthday:
-    month: 7
+    month: 6
+  name: yae_miko
+- birthday:
     date: 5
-- name: カーヴェ
-  birthday:
     month: 7
+  name: barbara
+- birthday:
     date: 9
-- name: 九条裟羅
-  birthday:
     month: 7
+  name: kaveh
+- birthday:
     date: 14
-- name: 胡桃
-  birthday:
     month: 7
+  name: kujou_sara
+- birthday:
     date: 15
-- name: タルタリヤ
-  birthday:
     month: 7
+  name: hu_tao
+- birthday:
     date: 20
-- name: 鹿野院平蔵
-  birthday:
     month: 7
+  name: tartaglia
+- birthday:
     date: 24
-- name: クレー
-  birthday:
     month: 7
+  name: shikanoin_heizou
+- birthday:
     date: 27
-- name: 久岐忍
-  birthday:
     month: 7
+  name: klee
+- birthday:
     date: 27
-- name: 煙緋
-  birthday:
     month: 7
+  name: kuki_shinobu
+- birthday:
     date: 28
-- name: ムアラニ
-  birthday:
-    month: 8
+    month: 7
+  name: yanfei
+- birthday:
     date: 3
-- name: イアンサ
-  birthday:
     month: 8
+  name: mualani
+- birthday:
     date: 8
-- name: アンバー
-  birthday:
     month: 8
+  name: iansan
+- birthday:
     date: 10
-- name: ミカ
-  birthday:
     month: 8
+  name: amber
+- birthday:
     date: 11
-- name: ナヴィア
-  birthday:
     month: 8
+  name: mika
+- birthday:
     date: 16
-- name: 千織
-  birthday:
     month: 8
+  name: navia
+- birthday:
     date: 17
-- name: ファルザン
-  birthday:
     month: 8
+  name: chiori
+- birthday:
     date: 20
-- name: アルレッキーノ
-  birthday:
     month: 8
+  name: faruzan
+- birthday:
     date: 22
-- name: 凝光
-  birthday:
     month: 8
+  name: arlecchino
+- birthday:
     date: 26
-- name: マーヴィカ
-  birthday:
     month: 8
+  name: ningguang
+- birthday:
     date: 28
-- name: モナ
-  birthday:
     month: 8
+  name: mavuika
+- birthday:
     date: 31
-- name: 重雲
-  birthday:
-    month: 9
+    month: 8
+  name: mona
+- birthday:
     date: 7
-- name: レザー
-  birthday:
     month: 9
+  name: chongyun
+- birthday:
     date: 9
-- name: アルベド
-  birthday:
     month: 9
+  name: razor
+- birthday:
     date: 13
-- name: クロリンデ
-  birthday:
     month: 9
+  name: albedo
+- birthday:
     date: 20
-- name: アイノ
-  birthday:
     month: 9
+  name: clorinde
+- birthday:
     date: 21
-- name: エミリエ
-  birthday:
     month: 9
+  name: aino
+- birthday:
     date: 22
-- name: フレミネ
-  birthday:
     month: 9
+  name: emilie
+- birthday:
     date: 24
-- name: 神里綾華
-  birthday:
     month: 9
+  name: freminet
+- birthday:
     date: 28
-- name: 行秋
-  birthday:
-    month: 10
+    month: 9
+  name: kamisato_ayaka
+- birthday:
     date: 9
-- name: フリーナ
-  birthday:
     month: 10
+  name: xingqiu
+- birthday:
     date: 13
-- name: オロルン
-  birthday:
     month: 10
+  name: furina
+- birthday:
     date: 14
-- name: 辛炎
-  birthday:
     month: 10
+  name: ororon
+- birthday:
     date: 16
-- name: 早柚
-  birthday:
     month: 10
+  name: xinyan
+- birthday:
     date: 19
-- name: エウルア
-  birthday:
     month: 10
+  name: sayu
+- birthday:
     date: 25
-- name: ナヒーダ
-  birthday:
     month: 10
+  name: eula
+- birthday:
     date: 27
-- name: 楓原万葉
-  birthday:
     month: 10
+  name: nahida
+- birthday:
     date: 29
-- name: フリンズ
-  birthday:
     month: 10
+  name: kaedehara_kazuha
+- birthday:
     date: 31
-- name: 香菱
-  birthday:
-    month: 11
+    month: 10
+  name: flins
+- birthday:
     date: 2
-- name: スカーク
-  birthday:
     month: 11
+  name: xiangling
+- birthday:
     date: 5
-- name: キィニチ
-  birthday:
     month: 11
+  name: skirk
+- birthday:
     date: 11
-- name: ヴァレサ
-  birthday:
     month: 11
+  name: kinich
+- birthday:
     date: 15
-- name: プルーネ
-  birthday:
     month: 11
+  name: varesa
+- birthday:
     date: 20
-- name: 刻晴
-  birthday:
     month: 11
+  name: prune
+- birthday:
     date: 20
-- name: リオセスリ
-  birthday:
     month: 11
+  name: keqing
+- birthday:
     date: 23
-- name: スクロース
-  birthday:
     month: 11
+  name: wriothesley
+- birthday:
     date: 26
-- name: ガイア
-  birthday:
     month: 11
+  name: sucrose
+- birthday:
     date: 30
-- name: 甘雨
-  birthday:
-    month: 12
+    month: 11
+  name: kaeya
+- birthday:
     date: 2
-- name: ニィロウ
-  birthday:
     month: 12
+  name: ganyu
+- birthday:
     date: 3
-- name: チャスカ
-  birthday:
     month: 12
+  name: nilou
+- birthday:
     date: 10
-- name: ヌヴィレット
-  birthday:
     month: 12
+  name: chasca
+- birthday:
     date: 18
-- name: レイラ
-  birthday:
     month: 12
+  name: neuvillette
+- birthday:
     date: 19
-- name: ドリー
-  birthday:
     month: 12
+  name: layla
+- birthday:
     date: 21
-- name: 嘉明
-  birthday:
     month: 12
+  name: dori
+- birthday:
     date: 22
-- name: イルーガ
-  birthday:
     month: 12
+  name: gaming
+- birthday:
     date: 23
-- name: ティナリ
-  birthday:
     month: 12
+  name: illuga
+- birthday:
     date: 29
-- name: 鍾離
-  birthday:
     month: 12
+  name: tighnari
+- birthday:
     date: 31
+    month: 12
+  name: zhongli
