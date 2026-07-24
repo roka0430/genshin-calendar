@@ -28,7 +28,7 @@ class Calendar {
       const birthday = birthdays[this.formatDate(first)];
       if (birthday) {
         html.push(`<span class="date__birthday">`);
-        for (const name of birthday) html.push(`<img src="characters/${name}.png">`);
+        for (const name of birthday) html.push(`<img src="characters/${name}.png" width="35" height="35">`);
         html.push(`</span>`);
       }
 

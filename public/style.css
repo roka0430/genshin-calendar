@@ -124,6 +124,6 @@ body {
   width: 35px;
   height: 35px;
   background: var(--color-bg-secondary);
-  /* background: red; */
   border-radius: 50%;
+  pointer-events: none;
 }
