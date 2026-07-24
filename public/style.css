@@ -1,7 +1,7 @@
 :root {
   --color-bg: #f5f7fa;
-  --color-bg-secondary: #ffffff;
-  --color-bg-hover: #e8eef5;
+  --color-bg-secondary: #f0f4f8;
+  --color-bg-hover: #e9eef5;
 
   --color-text: #52606d;
   --color-text-secondary: #7b8794;
@@ -41,8 +41,9 @@ body {
   gap: 10px;
   grid-template-rows: auto 1fr;
 
-  width: max(900px, 100%);
+  width: 1000px;
   height: 100%;
+  margin: 0 auto 0;
 }
 
 .calendar__header {
@@ -82,6 +83,8 @@ body {
 }
 
 .calendar__body .cell {
+  position: relative;
+  vertical-align: top;
   border: solid 1px var(--color-border);
 }
 
@@ -99,4 +102,28 @@ body {
 
 .calendar__body .cell.date {
   height: 60px;
+}
+
+.date__number {
+  display: inline-block;
+  padding: 10px 12px;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.date__birthday {
+  display: flex;
+  gap: 5px;
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.date__birthday img {
+  width: 35px;
+  height: 35px;
+  background: var(--color-bg-secondary);
+  /* background: red; */
+  border-radius: 50%;
 }
