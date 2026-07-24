@@ -26,6 +26,31 @@ router.get("/", (req, res) => {
   res.json(birthdays);
 });
 
+router.get("/range", (req, res) => {
+  const { start, end } = req.query;
+
+  if (typeof start !== "string" || typeof end !== "string") {
+    return res.status(400).json({
+      message: "Invalid range",
+    });
+  }
+
+  const [startMonth, startDate] = start.split("-").map(Number);
+  const [endMonth, endDate] = end.split("-").map(Number);
+
+  const startValue: number = startMonth * 100 + startDate;
+  const endValue: number = endMonth * 100 + endDate;
+
+  const matched: Birthday[] = birthdays.filter((birthday) => {
+    const value = birthday.birthday.month * 100 + birthday.birthday.date;
+
+    if (startValue <= endValue) return value >= startValue && value <= endValue;
+    return value >= startValue || value <= endValue;
+  });
+
+  res.json(matched);
+});
+
 router.get("/:month", (req, res) => {
   const month: number = Number(req.params.month);
 
