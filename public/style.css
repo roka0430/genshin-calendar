@@ -96,14 +96,6 @@ body {
   color: var(--color-saturday);
 }
 
-.calendar__body .cell.weekday {
-  padding: 5px 0;
-}
-
-.calendar__body .cell.date {
-  height: 60px;
-}
-
 .calendar__body .cell.other-month {
   background: var(--color-bg-secondary);
 }
@@ -113,9 +105,23 @@ body {
   font-size: 1rem;
 }
 
+.calendar__body .cell.weekday {
+  padding: 5px 0;
+}
+
+.calendar__body .cell.date {
+  height: 60px;
+}
+
+.date__content {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
 .date__number {
-  display: inline-block;
-  padding: 10px 12px;
+  padding: 2px 0 0 5px;
   font-size: 1.2rem;
   line-height: 1;
 }
@@ -123,10 +129,6 @@ body {
 .date__birthday {
   display: flex;
   gap: 5px;
-
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
 }
 
 .date__birthday img {

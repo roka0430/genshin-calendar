@@ -21,7 +21,7 @@ class Calendar {
     const birthdays = await this.fetchBirthdays(first, last);
 
     for (let i = 0; i < 42; i++) {
-      const html = [];
+      const html = [`<div class="date__content">`];
       const classes = ["cell", "date"];
 
       html.push(`<span class="date__number">${first.getDate()}</span>`);
@@ -35,6 +35,8 @@ class Calendar {
 
       if (this.isToday(first)) classes.push("today");
       if (first.getMonth() + 1 !== this.month) classes.push("other-month");
+
+      html.push("</div>");
 
       this.cells[i].className = classes.join(" ");
       this.cells[i].innerHTML = html.join("");
