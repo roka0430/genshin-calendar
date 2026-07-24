@@ -11,6 +11,7 @@
 
   --color-saturday: #64a0e8;
   --color-sunday: #e57373;
+  --color-today: #fff3cd;
 }
 
 * {
@@ -111,6 +112,10 @@ body {
 
 .calendar__body .cell.date {
   height: 60px;
+}
+
+.calendar__body .cell.today {
+  background: var(--color-today);
 }
 
 .date__content {
